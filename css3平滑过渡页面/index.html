@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 不允许缩放 -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> <!-- 最新的渲染模式 -->
+    <title>css3平滑过渡页面</title>
+    
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="st-container">
+            <!-- nav begin -->
+            <input id="st-control-1" type="radio" name="radio-set" checked="checked">
+            <a href="#st-panel-1">Page1</a>
+            <input id="st-control-2" type="radio" name="radio-set">
+            <a href="#st-panel-2">Page2</a>
+            <input id="st-control-3" type="radio" name="radio-set">
+            <a href="#st-panel-3">Page3</a>
+            <input id="st-control-4" type="radio" name="radio-set">
+            <a href="#st-panel-4">Page4</a>
+            <input id="st-control-5" type="radio" name="radio-set">
+            <a href="#st-panel-5">Page5</a>
+            <!-- nav end -->
+            <!-- content begin -->
+            <div class="st-scroll">
+                <section id="st-panel-1" class="st-panel">
+                    <div class="st-desc" data-icon="A"></div>
+                    <h2>页面1</h2>
+                    <p>内容1</p>
+                </section>
+                <section id="st-panel-2" class="st-panel st-color">
+                    <div class="st-desc" data-icon="B"></div>
+                    <h2>页面2</h2>
+                    <p>内容2</p>
+                </section>
+                <section id="st-panel-3" class="st-panel">
+                    <div class="st-desc" data-icon="C"></div>
+                    <h2>页面3</h2>
+                    <p>内容3</p>
+                </section>
+                <section id="st-panel-4" class="st-panel st-color">
+                    <div class="st-desc" data-icon="D"></div>
+                    <h2>页面4</h2>
+                    <p>内容4</p>
+                </section>
+                <section id="st-panel-5" class="st-panel">
+                    <div class="st-desc" data-icon="E"></div>
+                    <h2>页面5</h2>
+                    <p>内容5</p>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
